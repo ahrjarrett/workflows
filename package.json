@@ -3,9 +3,6 @@
   "version": "0.0.1",
   "description": "workflow setup",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "gulp.js",
     "browserify",
@@ -13,5 +10,9 @@
     "compass"
   ],
   "author": "andrew jarrett",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.7"
+  }
 }
